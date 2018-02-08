@@ -26,7 +26,7 @@ let myProfileImageURL:String = "https://faceboook.com/nikhil290192"
 //Error
 let myProfilePictureURL: String = nil
 
-//Introduction to Optionals 
+//Introduction to Optionals
 
 //Optionals allow storing nil, a.k.a absence of value.
 
@@ -49,12 +49,12 @@ robAge + danAge
 //Error
 
 
-//Optionals Unwrapping 
+//Optionals Unwrapping
 //There are two ways to convert/unwrap optionals types to normal types
 // 1.Forced unwrapping
 // 2. Implicit unwrapping
 
-//Forced Unwrapping 
+//Forced Unwrapping
 //You may convert by Inserting ! at the end of the variable. Forced Unwrapping should be avoided since it causes a crash if the optional type contains nil since a normal type can't store nil.
 
 let newRobAge = robAge!

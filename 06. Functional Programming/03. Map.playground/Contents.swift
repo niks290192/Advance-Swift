@@ -99,4 +99,4 @@ extension Array {
     }
 }
 
-let result = Array(1...10).myMap($0 * $0)
+let result = Array(1...10).myMap{ $0 * 10 }

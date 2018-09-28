@@ -12,6 +12,8 @@
 		950975C9215DB530007F9CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950975C7215DB530007F9CE7 /* Main.storyboard */; };
 		950975CB215DB531007F9CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950975CA215DB531007F9CE7 /* Assets.xcassets */; };
 		950975CE215DB531007F9CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950975CC215DB531007F9CE7 /* LaunchScreen.storyboard */; };
+		950975D7215DC240007F9CE7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950975D6215DC240007F9CE7 /* NewViewController.swift */; };
+		950975D9215DC52B007F9CE7 /* OpenPublicTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950975D8215DC52B007F9CE7 /* OpenPublicTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		950975CA215DB531007F9CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		950975CD215DB531007F9CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		950975CF215DB531007F9CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950975D5215DB6A9007F9CE7 /* access-control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "access-control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		950975D6215DC240007F9CE7 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		950975D8215DC52B007F9CE7 /* OpenPublicTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPublicTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 				950975CA215DB531007F9CE7 /* Assets.xcassets */,
 				950975CC215DB531007F9CE7 /* LaunchScreen.storyboard */,
 				950975CF215DB531007F9CE7 /* Info.plist */,
+				950975D5215DB6A9007F9CE7 /* access-control.playground */,
+				950975D6215DC240007F9CE7 /* NewViewController.swift */,
+				950975D8215DC52B007F9CE7 /* OpenPublicTest.swift */,
 			);
 			path = AccessControl;
 			sourceTree = "<group>";
@@ -135,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950975D7215DC240007F9CE7 /* NewViewController.swift in Sources */,
 				950975C6215DB530007F9CE7 /* ViewController.swift in Sources */,
 				950975C4215DB530007F9CE7 /* AppDelegate.swift in Sources */,
+				950975D9215DC52B007F9CE7 /* OpenPublicTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

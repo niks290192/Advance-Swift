@@ -54,8 +54,8 @@ func checkDrinkingAges() {
 checkDrinkingAges()
 
 //: ### Unwrapping Optionals
-var publicName: String? = "Bob Lee"
-var publicPhoto: String? = "Bob's Face"
+var publicName: String? = "NiKS Lee"
+var publicPhoto: String? = "NiKS's Face"
 var publicAge: Int? = nil
 
 //: The Worst Nightware

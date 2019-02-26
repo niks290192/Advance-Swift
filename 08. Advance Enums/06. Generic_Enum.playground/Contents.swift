@@ -14,7 +14,7 @@ enum Information<T, U> {
     case age(U)
 }
 
-// Information.name("Bob")
+// Information.name("NiKS")
 // T is "String", but U?
 
 Information<String, Int>.age(20)

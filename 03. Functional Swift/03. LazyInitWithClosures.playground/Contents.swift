@@ -52,33 +52,33 @@ struct Human {
     }
 }
 
-let createBob = { () -> Human in
+let createNiKS = { () -> Human in
     let human = Human()
     return human
 }
 
-let bobInstance = createBob
+let NiKSInstance = createNiKS
 
 //: Initialize in a single line
-let bobby = { () -> Human in
+let NiKSby = { () -> Human in
     let human = Human()
     return human
 }()
 
 //: Create UIView UnConventionally
-let bobView = { () -> UIView in
+let NiKSView = { () -> UIView in
     let view = UIView()
     view.backgroundColor = .black
     return view
 }()
 
-let bobbyView = { () -> UIView in
+let NiKSbyView = { () -> UIView in
     let view = UIView()
     view.backgroundColor = .black
     return view
 }
 
-let newBobbyView: UIView = {
+let newNiKSbyView: UIView = {
     let view = UIView()
     view.backgroundColor = .black
     return view

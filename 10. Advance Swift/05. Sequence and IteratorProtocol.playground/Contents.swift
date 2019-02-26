@@ -18,7 +18,7 @@ for skill in iOSSkills {
 // Prints "RxSwift"
 // Prints "TDD"
 
-for character in ("Bob the Developer").characters {
+for character in ("NiKS the Developer").characters {
     print(character)
 }
 

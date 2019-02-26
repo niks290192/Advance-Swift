@@ -19,13 +19,13 @@ extension MathGenius {
     }
 }
 
-struct Bob: MathGenius {
+struct NiKS: MathGenius {
     func calculateGPA() {
         print("1.2 GPA")
     }
 }
 
-Bob().calculateGPA() // 1.2 GPA
+NiKS().calculateGPA() // 1.2 GPA
 
 class Nikhil: MathGenius {}
 Nikhil().calculateGPA()

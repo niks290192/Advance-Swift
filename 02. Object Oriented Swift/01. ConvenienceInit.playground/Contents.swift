@@ -20,7 +20,7 @@ class Human {
 }
 
 let lee = Human.init(name: "Nikhil Arora") //init(name: String)
-let bob = Human()
+let NiKS = Human()
 
 /*
  
